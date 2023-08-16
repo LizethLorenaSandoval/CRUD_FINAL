@@ -1,0 +1,14 @@
+create database crud;
+use crud;
+
+create table persona(
+id int auto_increment primary key,
+nombre varchar (50) NOT NULL,
+apellido varchar (50) NOT NULL,
+cedula varchar (11) NOT NULL,
+email varchar (50) NOT NULL,
+sexo varchar (10) NOT NULL,
+fecha varchar (10) NOT NULL,
+hora varchar (5) NOT NULL,
+fecha_registro date NOT NULL
+);
